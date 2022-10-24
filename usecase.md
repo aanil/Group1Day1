@@ -1,3 +1,4 @@
+```PlantUML
 @startuml
 skinparam actorStyle awesome
 :User: --> (Use)
@@ -5,3 +6,4 @@ skinparam actorStyle awesome
 "Use the application" as (Use)
 Admin --> (Admin the application)
 @enduml
+```
