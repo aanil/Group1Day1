@@ -1,9 +1,9 @@
 ```PlantUML
 @startuml
 
-participant "Request Handler" as RH << (S,#ADD1B2) Server >> order 3
-participant Alice #lightGreen
-participant Bob #white
+participant "Authorisation Server" as RH << (S,#ADD1B2) Server >> order 3
+participant "PI" as Alice #lightGreen
+participant "Resource server" Bob #white
 
 Alice -> Bob: Valid Authentication Request
 Bob -> RH: formatted Authenticated Request (VALID)
