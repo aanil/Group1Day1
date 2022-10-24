@@ -1,5 +1,3 @@
-	
-
 @startuml
 skinparam actorStyle awesome
 :User: --> (Use)
