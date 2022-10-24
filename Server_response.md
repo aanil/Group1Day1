@@ -1,6 +1,6 @@
 ```PlantUML
 @startuml
-start
+
 participant "Request Handler" as RH
 participant Alice #lightGreen
 participant Bob #white
@@ -14,6 +14,6 @@ Alice -> Bob: Invalid Authentication Request
 Bob --> RH: formatted Authenticated Request (INVALID)
 RH --> Bob: Request Authenticated Response (DENIED)
 Alice <-- Bob: Authentication Response (DENIED)
-stop
+
 @enduml
 ```
