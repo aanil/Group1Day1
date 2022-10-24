@@ -1,7 +1,7 @@
 ```PlantUML
 @startuml
 start
-participant "Request Handler" as RH  << (S,#ADD1B2) Server >> order 3
+participant "Request Handler" as RH
 participant Alice #lightGreen
 participant Bob #white
 
