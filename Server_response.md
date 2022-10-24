@@ -1,3 +1,4 @@
+start
 @startuml
 
 '!include plantuml-ae.iuml
@@ -19,3 +20,4 @@ Alice <-- Bob: Authentication Response (DENIED)
 
 '!include ../../plantuml-styles/ae-copyright-footer.txt
 @enduml
+end
