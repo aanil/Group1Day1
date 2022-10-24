@@ -3,7 +3,7 @@
 
 participant "Authorisation Server" as RH << (S,#ADD1B2) Server >> order 3
 participant "PI" as Alice #lightGreen
-participant "Resource server" Bob #white
+participant "Resource server" as Bob #white
 
 Alice -> Bob: Valid Authentication Request
 Bob -> RH: formatted Authenticated Request (VALID)
