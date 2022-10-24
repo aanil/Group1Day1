@@ -1,3 +1,4 @@
+```PlantUML
 @startuml
 start
 participant "Request Handler" as RH  << (S,#ADD1B2) Server >> order 3
@@ -15,3 +16,4 @@ RH --> Bob: Request Authenticated Response (DENIED)
 Alice <-- Bob: Authentication Response (DENIED)
 stop
 @enduml
+```
