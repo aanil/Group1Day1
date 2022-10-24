@@ -2,7 +2,7 @@
 @startuml
 skinparam actorStyle awesome
 actor Researcher as r
-actor Lab Personnel as l
+actor LabPersonnel as l
 actor Bioinformatician as b
 usecase "Submit Sample" as uc0
 package Lab {
