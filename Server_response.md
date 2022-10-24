@@ -1,6 +1,5 @@
-start
 @startuml
-
+start
 '!include plantuml-ae.iuml
 
 participant "Request Handler" as RH  << (S,#ADD1B2) Server >> order 3
@@ -19,5 +18,5 @@ RH --> Bob: Request Authenticated Response (DENIED)
 Alice <-- Bob: Authentication Response (DENIED)
 
 '!include ../../plantuml-styles/ae-copyright-footer.txt
+stop
 @enduml
-end
