@@ -1,4 +1,4 @@
-
+```PlantUML
 @startuml
 participant Participant as Foo
 actor       Actor       as Foo1
@@ -16,3 +16,4 @@ Foo -> Foo5 : To database
 Foo -> Foo6 : To collections
 Foo -> Foo7: To queue
 @enduml
+```
